@@ -1,0 +1,9 @@
+Directory.GetFiles(variable2, "*.pdf").Concat(Directory.GetFiles(variable2, "*.docx"))
+
+
+
+Directory.GetFiles(variable2, "*.pdf")
+
+
+
+Directory.GetCurrentDirectory("D\value\values")

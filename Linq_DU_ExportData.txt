@@ -1,0 +1,32 @@
+
+
+
+
+
+
+
+
+
+
+
+
+(From r1 In exportDataSet.Tables(0).AsEnumerable()
+            From r2 In exportDataSet.Tables(2).AsEnumerable()
+            Select out_InvoiceDt.LoadDataRow(
+                New Object() {
+                    r1("Name").ToString,
+                    r1("Date").ToString,
+                    r1("Invoice Number").ToString,
+                    r1("PO Number").ToString,
+		r1("Vendor Address").ToString,
+                    r1("Billing Name").ToString,
+                    r1("Billing Address").ToString,
+                    r1("Net Amount").ToString,
+		 r2("Tax Amount").ToString,
+		r2("Total").ToString,
+                    r2("Description").ToString,
+		 r2("Quantity").ToString,
+		r2("Unit Price").ToString,
+	      r2("Line Amount").ToString  }, False)    ).CopyToDataTable()                   medge two non relatable Data Table 
+           
+   

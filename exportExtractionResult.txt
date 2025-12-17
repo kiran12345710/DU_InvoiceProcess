@@ -1,0 +1,55 @@
+Perfect, Kiran 👌
+
+From your Excel screenshot, your table has these columns:
+pdfFile, InvoiceNumber, poNumber, items, and amount.
+
+Now, you said earlier that you wanted to join two DataTables with no condition (meaning you want all combinations). So let’s assume:
+
+dt1 has details like pdfFile, InvoiceNumber, poNumber
+
+dt2 has items, amount
+
+and you want to merge them into one DataTable result like your Excel output.
+
+✅ Step-by-Step UiPath LINQ Example
+
+1. Assume two DataTables:
+
+dt1 Columns: {"pdfFile", "InvoiceNumber", "poNumber"}
+dt2 Columns: {"items", "amount"}
+
+
+2. Create a result DataTable:
+
+dtResult = New DataTable
+dtResult.Columns.Add("pdfFile", GetType(String))
+dtResult.Columns.Add("InvoiceNumber", GetType(String))
+dtResult.Columns.Add("poNumber", GetType(String))
+dtResult.Columns.Add("items", GetType(String))
+dtResult.Columns.Add("amount", GetType(String))
+
+
+3. LINQ Query (Assign Activity):
+
+dtResult = (From r1 In dt1.AsEnumerable()
+            From r2 In dt2.AsEnumerable()
+            Select dtResult.LoadDataRow(
+                New Object() {
+                    r1("pdfFile").ToString,
+                    r1("InvoiceNumber").ToString,
+                    r1("poNumber").ToString,
+                    r2("items").ToString,
+                    r2("amount").ToString
+                }, False)
+           ).CopyToDataTable()
+
+🔍 Example Output
+pdfFile	InvoiceNumber	poNumber	items	amount
+view.pdf	222	111	 items1	32312
+view.pdf	222	111	items2	2434
+view.pdf	222	111	items3	234223
+view1.pdf	444	666	items1	34535435
+view1.pdf	444	666	items2	45355
+view1.pdf	444	666	items3	654646
+
+Exactly like in your screenshot ✅

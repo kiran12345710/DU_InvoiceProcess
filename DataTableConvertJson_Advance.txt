@@ -1,0 +1,41 @@
+groupedData = (From row In dtInvoices.AsEnumerable()
+               Group row By key = row("DocumentName").ToString.Trim Into grp = Group
+               Select New With {
+                   .DocumentName = key,
+                   .Name = grp.First()("Name").ToString,
+                   .Date = grp.First()("Date").ToString,
+                   .InvoiceNumber = grp.First()("Invoice Number").ToString,
+                   .PONumber = grp.First()("PO Number").ToString,
+                   .VendorAddress = grp.First()("Vendor Address").ToString,
+                   .BillingName = grp.First()("Billing Name").ToString,
+                   .BillingAddress = grp.First()("Billing Address").ToString,
+                   .NetAmount = grp.First()("Net Amount").ToString,
+                   .TaxAmount = grp.First()("Tax Amount").ToString,
+                   .Total = grp.First()("Total").ToString,
+                   .Items = (From item In grp
+                             Select New With {
+                                 .Description = item("Description").ToString,
+                                 .Quantity = item("Quantity").ToString,
+                                 .UnitPrice = item("Unit Price").ToString,
+                                 .LineAmount = item("Line Amount").ToString
+                             }).ToList()                                                                                             assign to Ienumerable <oject> type variable
+               }).ToList()                                                            
+
+
+
+
+
+
+
+Newtonsoft.Json.JsonConvert.SerializeObject(jsonData, Newtonsoft.Json.Formatting.Indented)        To convert   Ienumerable<object>  to json format
+
+
+
+
+(From item In values
+            Select  sdT.NewRow().ItemArray() {
+                item("Description").ToString,
+                item("Quantity").ToString,
+				  item("UnitPrice").ToString,
+				    item("LineAmount").ToString
+            }).CopyToDataTable()

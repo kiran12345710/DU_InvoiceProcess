@@ -1,0 +1,6 @@
+{
+  "Name": "DocumentUnderstandingProcess",
+  "ProjectType": "Process",
+  "Description": "New Document Understanding Process",
+  "MainFile": "Main-ActionCenter.xaml"
+}

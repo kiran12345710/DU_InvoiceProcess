@@ -1,0 +1,308 @@
+[
+  {
+    "DocumentName": "1.pdf",
+    "Name": "Aenean LLC",
+    "Date": "2019-06-02",
+    "InvoiceNumber": "284212",
+    "PONumber": "456001211",
+    "VendorAddress": "3217 Nunc St. Buckley, Washington USA",
+    "BillingName": "",
+    "BillingAddress": "",
+    "NetAmount": "3449.67",
+    "TaxAmount": "689.93",
+    "Total": "4139.60",
+    "Items": [
+      {
+        "Description": "Item 1",
+        "Quantity": "90",
+        "UnitPrice": "37.90",
+        "LineAmount": "3411.00"
+      },
+      {
+        "Description": "Item 2",
+        "Quantity": "3",
+        "UnitPrice": "12.89",
+        "LineAmount": "38.67"
+      }
+    ]
+  },
+  {
+    "DocumentName": "10.pdf",
+    "Name": "Sit Amet Corp. Sit Amet Corp.",
+    "Date": "2019-06-20",
+    "InvoiceNumber": "16996",
+    "PONumber": "",
+    "VendorAddress": "1938 Amet Avenue Lake Cowichan USA",
+    "BillingName": "ACME Inc.",
+    "BillingAddress": "5171 Dui. Street Denver, Colorado USA",
+    "NetAmount": "1750.00",
+    "TaxAmount": "350.00",
+    "Total": "2100.00",
+    "Items": [
+      {
+        "Description": "Services",
+        "Quantity": "50",
+        "UnitPrice": "35.00",
+        "LineAmount": "1750.00"
+      }
+    ]
+  },
+  {
+    "DocumentName": "11.pdf",
+    "Name": "Aenean LLC",
+    "Date": "2019-06-20",
+    "InvoiceNumber": "284221",
+    "PONumber": "456001205",
+    "VendorAddress": "3217 Nunc St. Buckley, Washington USA",
+    "BillingName": "",
+    "BillingAddress": "",
+    "NetAmount": "5250.00",
+    "TaxAmount": "1050.00",
+    "Total": "6300.00",
+    "Items": [
+      {
+        "Description": "Services",
+        "Quantity": "42",
+        "UnitPrice": "125.00",
+        "LineAmount": "5250.00"
+      }
+    ]
+  },
+  {
+    "DocumentName": "12.pdf",
+    "Name": "Aenean LLC",
+    "Date": "2019-06-01",
+    "InvoiceNumber": "284210",
+    "PONumber": "456001201",
+    "VendorAddress": "3217 Nunc St. Buckley, Washington USA",
+    "BillingName": "",
+    "BillingAddress": "",
+    "NetAmount": "2500.00",
+    "TaxAmount": "500.00",
+    "Total": "3000.00",
+    "Items": [
+      {
+        "Description": "Services",
+        "Quantity": "20",
+        "UnitPrice": "125.00",
+        "LineAmount": "2500.00"
+      }
+    ]
+  },
+  {
+    "DocumentName": "2.pdf",
+    "Name": "Aenean LLC",
+    "Date": "2019-06-03",
+    "InvoiceNumber": "284213",
+    "PONumber": "456001211",
+    "VendorAddress": "3217 Nunc St. Buckley, Washington USA",
+    "BillingName": "",
+    "BillingAddress": "",
+    "NetAmount": "8148.67",
+    "TaxAmount": "1629.73",
+    "Total": "9778.40",
+    "Items": [
+      {
+        "Description": "Item 1",
+        "Quantity": "90",
+        "UnitPrice": "37.90",
+        "LineAmount": "3411.00"
+      },
+      {
+        "Description": "Item 2",
+        "Quantity": "3",
+        "UnitPrice": "12.89",
+        "LineAmount": "38.67"
+      },
+      {
+        "Description": "Item 3",
+        "Quantity": "50",
+        "UnitPrice": "70.00",
+        "LineAmount": "3500.00"
+      },
+      {
+        "Description": "Item 4",
+        "Quantity": "1",
+        "UnitPrice": "1199.00",
+        "LineAmount": "1199.00"
+      }
+    ]
+  },
+  {
+    "DocumentName": "3.pdf",
+    "Name": "Sit Amet Corp. Sit Amet Corp.",
+    "Date": "2019-06-19",
+    "InvoiceNumber": "13759",
+    "PONumber": "",
+    "VendorAddress": "1938 Amet Avenue Lake Cowichan USA",
+    "BillingName": "ACME Inc.",
+    "BillingAddress": "5171 Dui, Street Denver, Colorado USA",
+    "NetAmount": "733.00",
+    "TaxAmount": "146.60",
+    "Total": "879.60",
+    "Items": [
+      {
+        "Description": "Item 1",
+        "Quantity": "5",
+        "UnitPrice": "22.00",
+        "LineAmount": "110.00"
+      },
+      {
+        "Description": "Item 2",
+        "Quantity": "89",
+        "UnitPrice": "7.00",
+        "LineAmount": "623.00"
+      }
+    ]
+  },
+  {
+    "DocumentName": "4.pdf",
+    "Name": "Aenean LLC",
+    "Date": "2019-06-15",
+    "InvoiceNumber": "284232",
+    "PONumber": "456001207",
+    "VendorAddress": "3217 Nunc St. Buckley, Washington USA",
+    "BillingName": "",
+    "BillingAddress": "",
+    "NetAmount": "841.50",
+    "TaxAmount": "168.30",
+    "Total": "1009.80",
+    "Items": [
+      {
+        "Description": "Item 1",
+        "Quantity": "12",
+        "UnitPrice": "37.90",
+        "LineAmount": "454.80"
+      },
+      {
+        "Description": "Item 2",
+        "Quantity": "30",
+        "UnitPrice": "12.89",
+        "LineAmount": "386.70"
+      }
+    ]
+  },
+  {
+    "DocumentName": "5.pdf",
+    "Name": "Sit Amet Corp. Sit Amet Corp.",
+    "Date": "2019-07-01",
+    "InvoiceNumber": "18752",
+    "PONumber": "",
+    "VendorAddress": "1938 Amet Avenue Lake Cowichan USA",
+    "BillingName": "ACME Inc.",
+    "BillingAddress": "5171 Dui. Street Denver, Colorado USA",
+    "NetAmount": "1004.00",
+    "TaxAmount": "200.80",
+    "Total": "1204.80",
+    "Items": [
+      {
+        "Description": "Item 1",
+        "Quantity": "12",
+        "UnitPrice": "35.00",
+        "LineAmount": "420.00"
+      },
+      {
+        "Description": "Item 2",
+        "Quantity": "42",
+        "UnitPrice": "2.00",
+        "LineAmount": "84.00"
+      },
+      {
+        "Description": "Item 3",
+        "Quantity": "5",
+        "UnitPrice": "100.00",
+        "LineAmount": "500.00"
+      }
+    ]
+  },
+  {
+    "DocumentName": "6.pdf",
+    "Name": "Sit Amet Corp. Sit Amet Corp.",
+    "Date": "2019-06-01",
+    "InvoiceNumber": "16892",
+    "PONumber": "",
+    "VendorAddress": "1938 Amet Avenue Lake Cowichan USA",
+    "BillingName": "ACME Inc.",
+    "BillingAddress": "5171 Dui. Street Denver, Colorado USA",
+    "NetAmount": "17869.00",
+    "TaxAmount": "3573.80",
+    "Total": "21442.80",
+    "Items": [
+      {
+        "Description": "Services",
+        "Quantity": "1",
+        "UnitPrice": "17869.00",
+        "LineAmount": "17869.00"
+      }
+    ]
+  },
+  {
+    "DocumentName": "7.pdf",
+    "Name": "Sit Amet Corp. Sit Amet Corp.",
+    "Date": "2019-06-30",
+    "InvoiceNumber": "11577",
+    "PONumber": "",
+    "VendorAddress": "1938 Amet Avenue Lake Cowichan USA",
+    "BillingName": "ACME Inc.",
+    "BillingAddress": "5171 Dui, Street Denver, Colorado USA",
+    "NetAmount": "14425.00",
+    "TaxAmount": "62885.00",
+    "Total": "17310.00",
+    "Items": [
+      {
+        "Description": "Services",
+        "Quantity": "1",
+        "UnitPrice": "14425.00",
+        "LineAmount": "14425.00"
+      }
+    ]
+  },
+  {
+    "DocumentName": "8.pdf",
+    "Name": "Aenean LLC",
+    "Date": "2019-06-28",
+    "InvoiceNumber": "284228",
+    "PONumber": "456001200",
+    "VendorAddress": "3217 Nunc St. Buckley, Washington USA",
+    "BillingName": "",
+    "BillingAddress": "",
+    "NetAmount": "1500.00",
+    "TaxAmount": "300.00",
+    "Total": "1800.00",
+    "Items": [
+      {
+        "Description": "Services",
+        "Quantity": "12",
+        "UnitPrice": "125.00",
+        "LineAmount": "1500.00"
+      }
+    ]
+  },
+  {
+    "DocumentName": "9.pdf",
+    "Name": "Sit Amet Corp. Sit Amet Corp.",
+    "Date": "2019-06-26",
+    "InvoiceNumber": "11448",
+    "PONumber": "",
+    "VendorAddress": "1938 Amet Avenue Lake Cowichan USA",
+    "BillingName": "ACME Inc.",
+    "BillingAddress": "5171 Dui. Street Denver, Colorado USA",
+    "NetAmount": "6074.00",
+    "TaxAmount": "1214.80",
+    "Total": "7288.80",
+    "Items": [
+      {
+        "Description": "Item 1",
+        "Quantity": "40",
+        "UnitPrice": "150.00",
+        "LineAmount": "6000.00"
+      },
+      {
+        "Description": "Item 2",
+        "Quantity": "2",
+        "UnitPrice": "37.00",
+        "LineAmount": "74.00"
+      }
+    ]
+  }
+]

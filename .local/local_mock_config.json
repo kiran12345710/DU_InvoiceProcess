@@ -1,0 +1,34 @@
+{
+  "Mocks\\Framework\\15_GetTransactionItem_mock.xaml": {
+    "sourceWorkflowHash": "68d79e7a788522a003daab6d531360b457d3b23ea3ed8d6bc1f4496a13d624e2"
+  },
+  "Mocks\\Framework\\15_GetTransactionItem_mock_1.xaml": {
+    "sourceWorkflowHash": "68d79e7a788522a003daab6d531360b457d3b23ea3ed8d6bc1f4496a13d624e2"
+  },
+  "Mocks\\Framework\\ReusableWorkflows\\InvoicePostProcessing_mock.xaml": {
+    "sourceWorkflowHash": "7536dd181ca99beae9af56aced38e48bbd504904a8ea184812b5fb1b0c393b7a"
+  },
+  "Mocks\\Framework\\ReusableWorkflows\\InvoicePostProcessing_mock_1.xaml": {
+    "sourceWorkflowHash": "7536dd181ca99beae9af56aced38e48bbd504904a8ea184812b5fb1b0c393b7a"
+  },
+  "Mocks\\Framework\\ReusableWorkflows\\InvoicePostProcessing_mock_2.xaml": {
+    "sourceWorkflowHash": "7536dd181ca99beae9af56aced38e48bbd504904a8ea184812b5fb1b0c393b7a"
+  },
+  "Mocks\\Framework\\ReusableWorkflows\\InvoicePostProcessing_mock_3.xaml": {
+    "sourceWorkflowHash": "7536dd181ca99beae9af56aced38e48bbd504904a8ea184812b5fb1b0c393b7a"
+  },
+  "Mocks\\Framework\\ReusableWorkflows\\InvoicePostProcessing_mock_4.xaml": {
+    "sourceWorkflowHash": "7536dd181ca99beae9af56aced38e48bbd504904a8ea184812b5fb1b0c393b7a"
+  },
+  "Mocks\\Framework\\ReusableWorkflows\\InvoicePostProcessing_mock_5.xaml": {
+    "sourceWorkflowHash": "7536dd181ca99beae9af56aced38e48bbd504904a8ea184812b5fb1b0c393b7a"
+  },
+  "Mocks\\Framework\\ReusableWorkflows\\ReceiptPostProcessing_mock.xaml": {},
+  "Mocks\\Framework\\ReusableWorkflows\\ReceiptPostProcessing_mock_1.xaml": {},
+  "Mocks\\Framework\\ReusableWorkflows\\ReceiptPostProcessing_mock_2.xaml": {},
+  "Mocks\\Framework\\ReusableWorkflows\\ReceiptPostProcessing_mock_3.xaml": {},
+  "Mocks\\Framework\\ReusableWorkflows\\ReceiptPostProcessing_mock_4.xaml": {},
+  "Mocks\\Framework\\ReusableWorkflows\\AutocorrectOcrMistakes_mock.xaml": {
+    "sourceWorkflowHash": "d20c9d9cba2623158b15b68240be6dff1bd4eb6395f0125ac396bfc263e137be"
+  }
+}
